@@ -35,3 +35,22 @@ class Main {
 ```
 
 6. A method is a function that is part of a class. In some other languages we can have a function that exist outside of class. But when a function belongs to a class we refer to it as a method of that class. 
+
+7. In Java, calsses and methods should have an ``access modifier``. An access modifier is a special keyword that determinesif other classes and methods in this program can access these classes and methods. we have various access modifiers like public, private, etc. Most of the time we use the public access modifier: 
+
+
+### Basic structure of a Java Program
+
+``` 
+public class Main {
+   public void main() {
+
+    }
+}
+```
+
+##Syntax 
+
+1. Classes - PascalNamingConvention - 1st letter of every word uppercase
+2. Methods camelNamingConvention - 1st lett of every word should be uppercase except the first word
+
