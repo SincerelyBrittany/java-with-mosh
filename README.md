@@ -1,4 +1,10 @@
 # java-with-mosh
+
+### Java for VSCode
+
+https://code.visualstudio.com/docs/languages/java
+
+
 ### Understanding Functions
 
 1. How functions look in Java
@@ -49,8 +55,12 @@ public class Main {
 }
 ```
 
-##Syntax 
+### Syntax 
 
 1. Classes - PascalNamingConvention - 1st letter of every word uppercase
 2. Methods camelNamingConvention - 1st lett of every word should be uppercase except the first word
 
+##Under the hood 
+
+1. javac Main.java
+2. ls
