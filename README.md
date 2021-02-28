@@ -186,6 +186,8 @@ Practice declaring variables and assigning values to make sure you have a solid 
 
 ## Strings 
 
+*Strings are immutable 
+
 ```
 class Strings {
     public static void main(String[] args) {
@@ -195,6 +197,11 @@ class Strings {
     }
 }
 ```
+
+## Parameters versus arguements
+
+1. parameters are the holes that we define in our methods arguments
+2. arguments are the actual values that we pass to these methods
 
 
 ## Shorcuts
