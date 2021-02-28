@@ -164,6 +164,13 @@ boolean isEligible = true;
 
 Reference types - for storing complex values 
 
+Examples:
+
+```
+Date now = new Date();
+
+```
+
 several different data types in Java, which you’ll use as you create bigger and more complex programs.
 
 We covered:
@@ -176,3 +183,20 @@ String, which stores multiple characters using double quotes.
 Static typing, which is one of the safety features of Java.
 Variable naming conventions.
 Practice declaring variables and assigning values to make sure you have a solid foundation for learning more complicated and exciting Java concepts!
+
+## Strings 
+
+```
+class Strings {
+    public static void main(String[] args) {
+       String message = "Hellow World" + "!!!";
+      System.out.println(message);
+      System.out.println(message.endsWith("!!!));
+    }
+}
+```
+
+
+## Shorcuts
+
+1. SOUT + tab == System.out.println()
