@@ -4,7 +4,6 @@
 
 https://code.visualstudio.com/docs/languages/java
 
-
 ### Understanding Functions
 
 1. How functions look in Java
@@ -18,7 +17,6 @@ ReturnType Name() {
 
 2. You could use void for the return type and the function name should be specific & left brace stays on the same line as you define your function.
 
-
 ```
 void sendEmail() {
 
@@ -26,13 +24,13 @@ void sendEmail() {
 
 ```
 
-3. Understanding the MAIN function - the entry point for Java program - the code inside that function gets executed - main should always. Every Java program should have at least 1 function (Main). Main is the entry point to our programs whenever we execute java program and the code inside the main function gets executed. Fucntions do not exist on their own, they should always belong to a class. 
+3. Understanding the MAIN function - the entry point for Java program - the code inside that function gets executed - main should always. Every Java program should have at least 1 function (Main). Main is the entry point to our programs whenever we execute java program and the code inside the main function gets executed. Fucntions do not exist on their own, they should always belong to a class.
 
-4. A class is a continer for one or more related function. Basically we use these calsses to organize out code. Like sections in a grocery stoer with prodycts. 
+4. A class is a continer for one or more related function. Basically we use these calsses to organize out code. Like sections in a grocery stoer with prodycts.
 
 5. Every Java program should have at least one class that contains the main function
 
-``` 
+```
 class Main {
     void main() {
 
@@ -40,14 +38,13 @@ class Main {
 }
 ```
 
-6. A method is a function that is part of a class. In some other languages we can have a function that exist outside of class. But when a function belongs to a class we refer to it as a method of that class. 
+6. A method is a function that is part of a class. In some other languages we can have a function that exist outside of class. But when a function belongs to a class we refer to it as a method of that class.
 
-7. In Java, calsses and methods should have an ``access modifier``. An access modifier is a special keyword that determinesif other classes and methods in this program can access these classes and methods. we have various access modifiers like public, private, etc. Most of the time we use the public access modifier: 
-
+7. In Java, calsses and methods should have an `access modifier`. An access modifier is a special keyword that determinesif other classes and methods in this program can access these classes and methods. we have various access modifiers like public, private, etc. Most of the time we use the public access modifier:
 
 ### Basic structure of a Java Program
 
-``` 
+```
 public class Main {
    public void main() {
 
@@ -55,22 +52,22 @@ public class Main {
 }
 ```
 
-### Syntax 
+### Syntax
 
 1. Classes - PascalNamingConvention - 1st letter of every word uppercase
 2. Methods camelNamingConvention - 1st lett of every word should be uppercase except the first word
 
-## Under the hood 
+## Under the hood
 
 1. javac Main.java
 2. ls
-
 
 ## Notes from code academy
 
 #### Java programs have a specific structure in how the code is written. There are key elements that all Java programs share.
 
 #### The Program
+
 We have the text of a program inside the file called HelloWorld.java.
 
 ```
@@ -87,6 +84,7 @@ public class HelloWorld {
 This program writes Hello World! to your terminal when run.
 
 ## Case-Sensitivity
+
 Java is a case-sensitive language. Case sensitivity means that syntax, the words our computer understands, must match the case. For example, the Java command for outputting text to the screen is System.out.println(). If you were to type system.out.println() or System.Out.println(), the compiler would not know that your intention was to use System or out.
 
 Let’s go over this HelloWorld.java program line by line:
@@ -99,11 +97,10 @@ This is a single-line comment that documents the code. The compiler will ignore 
 
 ```
 
-
 ### Classes
 
 ```
-public class HelloWorld { 
+public class HelloWorld {
   // class code
 }
 
@@ -136,4 +133,46 @@ out is located within System, which is another object responsible for representi
 This line of code is a statement, because it performs a single task. Statements always conclude with a semicolon.
 
 ### Whitespace
+
 Java programs allow judicious use of whitespace (tabs, spaces, newlines) to create code that is easier to read. The compiler ignores whitespace, but humans need it! Use whitespace to indent and separate lines of code. Whitespace increases the readability of your code.
+
+## Data Types
+
+Primitive Types - For storing simple values
+
+```
+byte
+short
+int
+long 
+float
+double
+char
+boolean
+```
+
+```
+
+byte age = 30;
+long viewsCount = 3_123_456_789L;
+float price = 10.99F;
+char letter = 'A';
+boolean isEligible = true; 
+
+```
+
+
+Reference types - for storing complex values 
+
+several different data types in Java, which you’ll use as you create bigger and more complex programs.
+
+We covered:
+
+int, which stores whole numbers. - numbers that dont store a decimal
+double, which stores bigger whole numbers and decimal numbers.
+boolean, which stores true and false.
+char, which stores single characters using single quotes.
+String, which stores multiple characters using double quotes.
+Static typing, which is one of the safety features of Java.
+Variable naming conventions.
+Practice declaring variables and assigning values to make sure you have a solid foundation for learning more complicated and exciting Java concepts!
