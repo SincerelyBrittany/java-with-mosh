@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MathClass",
+            "request": "launch",
+            "mainClass": "MathClass",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch Casting",
             "request": "launch",
             "mainClass": "Casting",
