@@ -4,7 +4,7 @@ public class IfStatements {
          if (temp > 30){
            System.out.println("It is a hot day");
            System.out.println("Drink Water");
-        } else if(temp > 20 && temp <= 30){
+        }else if(temp > 20 && temp <= 30){
             System.out.println("beautiful day");
         }else{
             System.out.println("cold day");

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TernaryOperator",
+            "request": "launch",
+            "mainClass": "TernaryOperator",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimplifyIfStatements",
+            "request": "launch",
+            "mainClass": "SimplifyIfStatements",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch IfStatements",
             "request": "launch",
             "mainClass": "IfStatements",
