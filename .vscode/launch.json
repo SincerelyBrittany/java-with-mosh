@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Casting",
+            "request": "launch",
+            "mainClass": "Casting",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrderofOperationsPEMDAS",
+            "request": "launch",
+            "mainClass": "OrderofOperationsPEMDAS",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch ArithmeticExpressions",
             "request": "launch",
             "mainClass": "ArithmeticExpressions",

@@ -1,3 +1,5 @@
+import java.lang.*;
+
 public class Casting {
       public static void main(String[] args) {
           //one of the values should be converted to the other type so that they are equal
@@ -23,9 +25,18 @@ public class Casting {
         // explicit casting
 
         double l = 1.1;
-        // int b = a + 2;
         int m = (int)l + 2;
         System.out.println(m);
+
+
+        // Integers and String - use a package 
+        String q = "1";
+        // use a wrapper class to add string to integer
+        // Integer.parseInt(q);
+        // Short.parseShort();
+        int r = Integer.parseInt(q) + 2;
+        System.out.println(r);
+
 
     }
 }
