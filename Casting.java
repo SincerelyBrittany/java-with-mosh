@@ -37,6 +37,10 @@ public class Casting {
         int r = Integer.parseInt(q) + 2;
         System.out.println(r);
 
+        String z = "1.1";
+        double w = Double.parseDouble(z) + 2;
+        System.out.println(w);
+
 
     }
 }
