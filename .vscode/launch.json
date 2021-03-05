@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FormattingNumbers",
+            "request": "launch",
+            "mainClass": "FormattingNumbers",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch MathClass",
             "request": "launch",
             "mainClass": "MathClass",
