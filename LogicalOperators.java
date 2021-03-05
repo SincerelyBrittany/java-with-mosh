@@ -11,7 +11,7 @@ public class LogicalOperators {
         boolean hasGoodCredit = true;
         boolean hasCriminalRecord = false;
 
-        boolean isEligible = hasHighIncome || hasGoodCredit && !hasCriminalRecord;
+        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
 
         System.out.println(isEligible);
 
