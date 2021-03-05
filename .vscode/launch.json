@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MortageCalculator",
+            "request": "launch",
+            "mainClass": "MortageCalculator",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadingInput",
+            "request": "launch",
+            "mainClass": "ReadingInput",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch FormattingNumbers",
             "request": "launch",
             "mainClass": "FormattingNumbers",
