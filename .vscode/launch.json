@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IfStatements",
+            "request": "launch",
+            "mainClass": "IfStatements",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch LogicalOperators",
             "request": "launch",
             "mainClass": "LogicalOperators",
