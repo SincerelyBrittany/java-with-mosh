@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LogicalOperators",
+            "request": "launch",
+            "mainClass": "LogicalOperators",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComparisonOperator",
+            "request": "launch",
+            "mainClass": "ComparisonOperator",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch MortageCalculator",
             "request": "launch",
             "mainClass": "MortageCalculator",
