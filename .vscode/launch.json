@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ForEachLoop",
+            "request": "launch",
+            "mainClass": "ForEachLoop",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch BreakContinue",
             "request": "launch",
             "mainClass": "BreakContinue",

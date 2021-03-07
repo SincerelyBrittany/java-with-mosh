@@ -24,7 +24,7 @@ public class BreakContinue {
         // }
 
 
-        while(true){
+        while(true){ //make sure to have a break statment if you use while true
             System.out.print("Input:  ");
             input = scanner.next().toLowerCase();
             if(input.equals("pass"))
