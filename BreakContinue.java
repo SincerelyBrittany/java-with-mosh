@@ -13,7 +13,18 @@ public class BreakContinue {
         //         System.out.println(input);
         // }
 
-         while(!input.equals("quit")){
+        //  while(!input.equals("quit")){
+        //     System.out.print("Input:  ");
+        //     input = scanner.next().toLowerCase();
+        //     if(input.equals("pass"))
+        //         continue;
+        //     if(input.equals("quit"))
+        //         break;
+        //     System.out.println(input);
+        // }
+
+
+        while(true){
             System.out.print("Input:  ");
             input = scanner.next().toLowerCase();
             if(input.equals("pass"))
