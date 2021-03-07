@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DoWhileLoops",
+            "request": "launch",
+            "mainClass": "DoWhileLoops",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch WhileLoops",
             "request": "launch",
             "mainClass": "WhileLoops",
