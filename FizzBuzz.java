@@ -6,6 +6,16 @@ public class FizzBuzz {
         // if divisible by both == fizzbuzz
         // else return the number
 
-        System.out.println("Hello, World.");
+        int num = 5;
+        if(num % 5 == 0 && num % 3 == 0){
+            System.out.println("fizzbuzz");
+        } else if (num % 5 == 0){
+            System.out.println("fizz");
+        } else if(num % 3 == 0){
+            System.out.println("buzz");
+        } else{
+            System.out.println(num);
+        }
+        
     }
 }
