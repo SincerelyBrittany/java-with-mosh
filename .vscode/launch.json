@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MortgageCalcPart2",
+            "request": "launch",
+            "mainClass": "MortgageCalcPart2",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch ForEachLoop",
             "request": "launch",
             "mainClass": "ForEachLoop",
