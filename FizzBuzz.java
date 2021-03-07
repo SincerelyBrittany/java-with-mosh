@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class FizzBuzz {
      public static void main(String[] args) {
 
@@ -5,8 +7,11 @@ public class FizzBuzz {
         //if divisible by 3 === buzz
         // if divisible by both == fizzbuzz
         // else return the number
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("number:? " );
+        int num = scanner.nextInt();
 
-        int num = 5;
+        //int num = 5;
         if(num % 5 == 0 && num % 3 == 0){
             System.out.println("fizzbuzz");
         } else if (num % 5 == 0){

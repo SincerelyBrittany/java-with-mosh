@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "java-with-mosh_b74e3ca1"
+        },
+        {
+            "type": "java",
             "name": "Launch SwitchStatements",
             "request": "launch",
             "mainClass": "SwitchStatements",
